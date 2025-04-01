@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>IT-Incubator, дз Рудик Софии</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" data-cy="hw2-header">
+        <a href="https://it-incubator.io/" data-cy="hw2-header-span">IT-INCUBATOR</a>
+    </header>
+
+    <article class="wrapper" data-cy="hw2-section-main-pre">
+        <div class="text-wrapper">
+            <h1 data-cy="hw2-main-title">Рудик София Сергеевна</h1>
+            <p data-cy="hw2-text">Я изучаю программирование в IT-INCUBATOR. Это очень интересный и сложный процесс, но я готова к новым вызовам. Моя цель — стать профессиональным разработчиком!</p>
+        </div>
+        <img src="image1.png" alt="Фото студента" width="715px" data-cy="hw2-main-image">
+    </article>
+
+    <section class="info-wrapper" data-cy="hw2-section-about-pre">
+        <h2>Выбор города</h2>
+        <select name="city" required data-cy="hw2-select-pre" class="select">
+            <option value="Минск">Минск</option>
+            <option value="Гродно" selected>Гродно</option>
+            <option value="Гомель">Гомель</option>
+        </select>
+    </section>
+
+    <section>
+        <h2 data-cy="hw2-section-title-pre">Любимые фреймворки</h2>
+        <ul class="skills" data-cy="hw2-frameworks-list-pre">
+            <li>React</li>
+            <li>Angular</li>
+            <li>Vue</li>
+        </ul>
+        <ul class="books-list" data-cy="hw2-books-list-pre">
+            <li>Дневники вампира</li>
+            <li>Анатомия страсти</li>
+            <li>Служба спасения 911</li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h2>Мои скиллы</h2>
+        <form class="form">
+            <label class="label">
+                <input type="checkbox" name="skill" value="HTML5">
+                Хочу изучать HTML5
+            </label>
+            <label class="label">
+                <input type="checkbox" name="skill" value="CSS3">
+                Хочу изучать CSS3
+            </label>
+            <label class="label">
+                <input type="checkbox" name="skill" value="JS">
+                Хочу изучать JS
+            </label>
+            <br>
+            <label for="new-skill-form">Новый скилл</label>
+            <input type="text" id="new-skill-form" placeholder="Введите новый скилл" class="new_skil">
+            <button type="submit" class="addButton" data-cy="hw2-btn-pre">Добавить</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <table border="1" data-cy="hw2-about-table-pre">
+        <tr>
+            <th>п/п</th>
+            <th>Наименование</th>
+            <th>Количество</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Монитор</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Клавиатура</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Мышь</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td colspan="2">Итого:</td>
+            <td>7</td>
+        </tr>
+    </table>
+    <footer class="footer" data-cy="hw-footer-pre">
+        <a href="https://it-incubator.io/" data-cy="hw-footer-link-pre">IT-INCUBATOR</a>
+    </footer>
+</body>
+</html>
